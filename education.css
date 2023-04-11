@@ -1,0 +1,26 @@
+.button2{
+    width: 700px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 184, 10);;
+    color: rgb(0, 0, 0);
+}
+fieldset{
+    width: 1300px;
+    padding-top: 20px;
+}
+.column1 {
+    float: left;
+    width:50%;
+}
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  ul{
+    font-size: 20px;
+  }

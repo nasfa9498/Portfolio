@@ -1,0 +1,27 @@
+.card-body{
+    background-color: black;
+}
+.cardtop{
+    padding-top: 30px;
+}
+.blank{
+    height: 20px;
+}
+.row{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.navrow{
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.body2{
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+}
+.navbar{
+    border-radius: 10px;
+}

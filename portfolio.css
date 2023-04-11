@@ -1,0 +1,88 @@
+.row{
+  display: flex;
+  /*flex-direction:row;*/
+  justify-content: center;
+}
+
+
+.body{
+    background-color: rgb(3, 18, 50);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:left;
+    padding-left: 100px;
+    color: white;
+    height: 650px;
+    
+}
+.dots{
+    color: cadetblue;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(204, 184, 10);
+    color: black;
+}
+.navbar{
+
+    padding-left: 900px;
+    background-color: rgb(3, 18, 50);
+    padding-top: 30px;
+    
+}
+a{color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.column {
+    float: left;
+    width:30%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  fieldset{
+    height: 500px;
+}
+  img{
+   
+    width: 50%; /* This makes the image take up the entire circle container */
+    height: auto; /* This ensures that the image retains its aspect ratio */
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  .salute{
+    padding-top: 100px;
+  }
+
+  .text{
+    width: 500px;
+    height:160px ;
+    background-color:;
+    word-spacing: 4px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 5px;
+    font-size: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .profile{
+    padding-left: 100px;
+    padding-top:20px;
+  }
+
+  

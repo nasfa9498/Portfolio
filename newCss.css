@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(44, 50, 60);
+    color: rgb(225, 222, 222);
+}
+
+fieldset{
+    border-color: rgb(197, 189, 189);
+    border-width: 3px;
+}
+.mainbuttons{
+    display:block;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.material-icons {
+    font-family: "Material Icons";
+    font-size:25px;
+}
+.btn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#myprofile{
+    display: none;
+}
+#Education{
+    display: none;
+}
+#Experience{
+    display: none;
+}
+#Skills{
+    display: none;
+}
+#Contact{
+    display: none;
+}
+#front{
+    display: none;
+}
+#quality{
+    display: none;
+}
+#analys{
+    display: none;
+}
+#lang{
+    display: none;
+}
+#projects{
+    display: none;
+}
+
+.project{
+   display: flex;
+   justify-content: center; 
+}
+button{
+    display: block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(65, 63, 84);
+    color: rgb(203, 198, 198);
+    margin-top: 10px;
+}
+button:hover{
+    color: white;
+}
+
+a{color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+.portion{
+    width: 50%;
+    display: block;
+   
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 100%; 
+    
+   
+
+}
+.bg-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color:  rgb(69, 69, 79);
+    color: rgb(203, 198, 198) ;
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10px; 
+   
+
+}
+.button2{
+    width: 50%;
+}
+fieldset{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 50%;  
+
+}
+.head{
+    display:block;
+    justify-content:center;
+    align-items: center;
+
+
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  img{
+    
+   
+    width: 25%; /* This makes the image take up the entire circle container */
+    height: auto; /* This ensures that the image retains its aspect ratio */
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
